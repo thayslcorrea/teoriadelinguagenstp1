@@ -38,7 +38,7 @@
                     <div class=" col-md-8">
                         <input class="form-control input-search" type="text" id="palavra" placeholder="Digite uma palavra" /><br>
 
-                        <input type="file" id="arquivo" name="arquivo" accept=".txt, .doc, .docx">
+                        <input type="file" id="arquivo" name="arquivo" accept=".txt">
                     </div>
 
                     <div class="col-md-4 text-right">
