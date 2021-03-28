@@ -131,19 +131,12 @@ function verifica(palavra, origem) {
 
         } while (i < tamanho_palavra - 2);
 
-        // console.log(palavra)
-        // console.log(count)
-        // console.log(tamanho_palavra)
-        // console.log(flag)
-
-
         // Verificação para ver se a palavra foi aceita até aqui, ou seja: começa com 5 e repete 1 ou n vezes de 4h ou 0t
         if (flag) {
             // Verifica se está no último caractere da palavra
             if (count + 1 == tamanho_palavra) {
                 // E se este é igual a 7
                 if (palavra.substring(tamanho_palavra - 1, tamanho_palavra) == "7") {
-                    console.log("aqui");
                     count++;
                     // Se sim, terminamos de processar a palavra e ela foi aceita
                     flag = true;
