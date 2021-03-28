@@ -1,0 +1,13 @@
+.btn-confirmar{
+    background-color: green;
+    padding: 6px !important;
+}
+
+p{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+body{
+    width: 100vw;
+}
